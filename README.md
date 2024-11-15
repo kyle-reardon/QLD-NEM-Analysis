@@ -12,7 +12,8 @@ This repository contains the code and  key results of the project.
 
 ### Please note, due to university restrictions, the datasets cannot be published in the repository
 
-## Methods
+## Data & Methods
+### Data Sources
 - Original data sources are listed below. Most spanned January 2022 - June 2024, whilst the Interconnector flow data only spanned March 2023 - June 2024.
 1) Brisbane weather data, including temperature, wind and dew point
 2) Interconnector flow data, measuring energy flows between states (QLD and NSW)
@@ -20,8 +21,12 @@ This repository contains the code and  key results of the project.
 4) Electricity price, by state
 5) Rooftop solar generation levels
 
-- Pre-processing: handled missing values, derived temporal and calendar features (public holiday, day of week, time of day, day of year, month), temporal demand indicators (lagged features, moving averages, exponential moving averages)
-- Key analysis techniques:
+### Pre-processing
+- Handled missing values
+- Derived temporal and calendar features (public holiday, day of week, time of day, day of year, month), temporal demand indicators (lagged features, moving averages, exponential moving averages)
+- Aggregation to hourly and daily timeframes
+
+### Analysis Techniques
   1) Descriptive analysis including correlation matrices, seasonal plots, summary statistics, etc.
   2) Predictive analysis used 3 tree-based models (XGBoost, LightGBM, Random Forest)
   3) Classifiers built using Binary Logistic Regression and LightGBM
