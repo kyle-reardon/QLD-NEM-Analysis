@@ -10,7 +10,7 @@ The findings aim to support energy market stakeholders, including the market ope
 
 This repository contains the code and  key results of the project.
 
-### Please note, due to university restrictions, the datasets cannot be published in the repository
+### Please note, due to university restrictions, the datasets and written report cannot be published in the repository (only the code)
 
 ## Data & Methods
 ### Data Sources
@@ -22,9 +22,9 @@ This repository contains the code and  key results of the project.
 5) Rooftop solar generation levels
 
 ### Pre-processing
-- Handled missing values
+- Filled missing values (e.g., with mean of prior and following observation to preserve temporal impacts)
 - Derived temporal and calendar features (public holiday, day of week, time of day, day of year, month), temporal demand indicators (lagged features, moving averages, exponential moving averages)
-- Aggregation to hourly and daily timeframes
+- Aggregation to hourly and daily timeframes for analysis
 
 ### Analysis Techniques
   1) Descriptive analysis including correlation matrices, seasonal plots, summary statistics, etc.
