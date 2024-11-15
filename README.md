@@ -22,9 +22,9 @@ This repository contains the code and  key results of the project.
 5) Rooftop solar generation levels
 
 ### Pre-processing
-- Handled missing values
+- Filled missing values (e.g., with mean of prior and following observation to preserve temporal impacts)
 - Derived temporal and calendar features (public holiday, day of week, time of day, day of year, month), temporal demand indicators (lagged features, moving averages, exponential moving averages)
-- Aggregation to hourly and daily timeframes
+- Aggregation to hourly and daily timeframes for analysis
 
 ### Analysis Techniques
   1) Descriptive analysis including correlation matrices, seasonal plots, summary statistics, etc.
