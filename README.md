@@ -10,7 +10,7 @@ The findings aim to support energy market stakeholders, including the market ope
 
 This repository contains the code and  key results of the project.
 
-### Please note, due to university restrictions, the datasets cannot be published in the repository
+### Please note, due to university restrictions, the datasets and written report cannot be published in the repository (only the code)
 
 ## Data & Methods
 ### Data Sources
