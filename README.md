@@ -8,9 +8,9 @@ This project explores electricity demand patterns and forecasting accuracy in Qu
 
 The findings aim to support energy market stakeholders, including the market operator (AEMO), policymakers, practitioners and researchers. AEMO's forecasting team's budget for 2024/25 is $210 million.
 
-This repository contains the code and  key results of the project.
+This repository contains the code and  key results of the project. Code is provided in both ipynb and knitted pdf format in case of rendering issues.
 
-### Please note, due to university restrictions, the datasets and written report cannot be published in the repository (only the code)
+### ⚠️ Please note, due to university restrictions, the datasets and written report cannot be published in the repository (only the code)
 
 ## Data & Methods
 ### Data Sources
